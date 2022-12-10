@@ -14,7 +14,7 @@ void InsertBegging(int entrada) { //inserir elementos no inicio da lista
     temp->next = head; //pegando o valor do pointer head.next que se estiver vazia vai ser NULL, mas se estiver ja alocado só ira trocar os ponteiros
 
     head = temp;
-
+    
 }
 
 void PrintNodes() {
